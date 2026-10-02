@@ -1,402 +1,9338 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-        width="810"
-        height="795"
-        viewBox="0 0 810 795">
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="500"
+height="500"
+viewBox="0 0 500 500">
 
-<style>
-    .ascii {
-        font-family: "Courier New", monospace;
-        font-size: 14px;
-        font-weight: 400;
-        fill: #d0d0d0;
-    }
+<rect width="500" height="500" fill="#000000"/>
+<defs>
+    <filter id="glow">
+        <feGaussianBlur stdDeviation="1.2" result="blur"/>
+        <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
 
-    .line {
-        transform-origin: left center;
-        animation: reveal 1.2s ease-out forwards;
-    }
+<g>
 
-    @keyframes reveal {
-        from {
-            clip-path: inset(0 100% 0 0);
-            opacity: 0;
-        }
-
-        to {
-            clip-path: inset(0 0 0 0);
-            opacity: 1;
-        }
-    }
-</style>
-<rect width="100%" height="100%" fill="#050505"/>
-<text
-    class="ascii line"
-    x="4"
-    y="15"
-    style="animation-delay:0.000s"
->                                   *####*==-=- ......:</text>
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="5.74s"
+        begin="-6.82s"
+        repeatCount="indefinite"
+    />
 
 <text
-    class="ascii line"
-    x="4"
-    y="30"
-    style="animation-delay:0.035s"
->                                   ***###++=+=-..:..::</text>
+    x="8.9"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    3
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="45"
-    style="animation-delay:0.070s"
->                                   ***#####**=+-.::::-</text>
+    x="8.9"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    1
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="60"
-    style="animation-delay:0.105s"
->                                   ****###%#*+#*..::--</text>
+    x="8.9"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    8
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="75"
-    style="animation-delay:0.140s"
->                                   %***####%###*+::---</text>
+    x="8.9"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.36"
+    filter="url(#glow)">
+    6
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="90"
-    style="animation-delay:0.175s"
->                                   #*#***###%####+---=</text>
+    x="8.9"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    1
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="105"
-    style="animation-delay:0.210s"
->                                   *+****###%%####+--=</text>
+    x="8.9"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    8
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="120"
-    style="animation-delay:0.245s"
->                                   *+==***###%%####+==</text>
+    x="8.9"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    8
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="135"
-    style="animation-delay:0.280s"
->                                   +++==****##%%####==</text>
+    x="8.9"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    8
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="150"
-    style="animation-delay:0.315s"
->                                   *++==-=#*##%%###%*=</text>
+    x="8.9"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    7
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="165"
-    style="animation-delay:0.350s"
->                                   ++*====+*####%%#%%*</text>
+    x="8.9"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    0
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="180"
-    style="animation-delay:0.385s"
->                                   =**=++===####%%%#**</text>
+    x="8.9"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    2
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="195"
-    style="animation-delay:0.420s"
->                                   ++++++*%+=+###%%#++</text>
+    x="8.9"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    5
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="210"
-    style="animation-delay:0.455s"
->                                   +=+#*=#%#=-*#####++</text>
+    x="8.9"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    3
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="225"
-    style="animation-delay:0.490s"
->                                   +=#***#%%*--+####+=</text>
+    x="8.9"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    5
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="240"
-    style="animation-delay:0.525s"
->                                   *##***#%%##--=*##==</text>
+    x="8.9"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    6
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="255"
-    style="animation-delay:0.560s"
->                                   -+#***##%#%=---++-=</text>
+    x="8.9"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    5
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="270"
-    style="animation-delay:0.595s"
->                                   :=#**%%%%%#++=--=:-</text>
+    x="8.9"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="285"
-    style="animation-delay:0.630s"
->                                   -.=##%%%%%##**===::</text>
+    x="8.9"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="300"
-    style="animation-delay:0.665s"
->                                     :*#%%%%%#%#+**+::</text>
+    x="8.9"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="315"
-    style="animation-delay:0.700s"
->                                   .:-+#%%%%###%**#*::</text>
+    x="8.9"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="330"
-    style="animation-delay:0.735s"
->                                   :-==+*%%##*=+#*%*::</text>
+    x="8.9"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    6
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="345"
-    style="animation-delay:0.770s"
->                                   =+*++*%#*#+.=%#%*::</text>
+    x="8.9"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    1
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="5.43s"
+        begin="-1.19s"
+        repeatCount="indefinite"
+    />
 
 <text
-    class="ascii line"
-    x="4"
-    y="360"
-    style="animation-delay:0.805s"
->                                   *#***#####*:+++##::</text>
+    x="26.8"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    5
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="375"
-    style="animation-delay:0.840s"
->                                   ##+***##*##:-:-#*+*</text>
+    x="26.8"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    1
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="390"
-    style="animation-delay:0.875s"
->                                   *#*+==*+-=#--=-*##*</text>
+    x="26.8"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    3
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="405"
-    style="animation-delay:0.910s"
->                                   *#+=--+=:-#=++*###*</text>
+    x="26.8"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    1
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="420"
-    style="animation-delay:0.945s"
->                                   #*==:-=--=***+**%#*</text>
+    x="26.8"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    1
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="435"
-    style="animation-delay:0.980s"
->                                   =*++-:--=--#*--+***</text>
+    x="26.8"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    7
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="450"
-    style="animation-delay:1.015s"
->                                   -=++=-==+==**=--+##</text>
+    x="26.8"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    5
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="465"
-    style="animation-delay:1.050s"
->                                   ++=---+*+:=**=-:+##</text>
+    x="26.8"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    5
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="480"
-    style="animation-delay:1.085s"
->                                   +++=-:=*+.**+:--+#*</text>
+    x="26.8"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    4
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="495"
-    style="animation-delay:1.120s"
->                                   :-+-=-+#*+**+-=-+*#</text>
+    x="26.8"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    1
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="510"
-    style="animation-delay:1.155s"
->                                   =-:--+##***#+=+:=**</text>
+    x="26.8"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    2
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="525"
-    style="animation-delay:1.190s"
->                                   ==--==#***+#*=+::+*</text>
+    x="26.8"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    3
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="540"
-    style="animation-delay:1.225s"
->                                   -+-===#*+*+#*+*:.=#</text>
+    x="26.8"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    6
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="555"
-    style="animation-delay:1.260s"
->                                   =#*=-=#*+*+##+*= :*</text>
+    x="26.8"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    8
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="570"
-    style="animation-delay:1.295s"
->                                   =+==:=##****+=+*.:*</text>
+    x="26.8"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    5
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="585"
-    style="animation-delay:1.330s"
->                                   .=*=:=##***===-*++#</text>
+    x="26.8"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    0
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="600"
-    style="animation-delay:1.365s"
->                                   .=*+.+##**#+=++*-=*</text>
+    x="26.8"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    0
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="615"
-    style="animation-delay:1.400s"
->                                   .+#+.*##***=.-*=.=*</text>
+    x="26.8"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    6
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="630"
-    style="animation-delay:1.435s"
->                                   :*%*.**+.... -*#==+</text>
+    x="26.8"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    3
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="645"
-    style="animation-delay:1.470s"
->                                   :*+=:+:--:::.-***++</text>
+    x="26.8"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    9
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="660"
-    style="animation-delay:1.505s"
->                                   =+-:::::-===++*+*+*</text>
+    x="26.8"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    5
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="675"
-    style="animation-delay:1.540s"
->                                   ==------:-+#%#-=***</text>
+    x="26.8"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="690"
-    style="animation-delay:1.575s"
->                                   +=--:-==+*##%#:.=++</text>
+    x="26.8"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="705"
-    style="animation-delay:1.610s"
->                                   *=---=*%##*#*#=:++#</text>
+    x="26.8"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="720"
-    style="animation-delay:1.645s"
->                                   ++-=+=*%#**#+-+=++-</text>
+    x="26.8"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="735"
-    style="animation-delay:1.680s"
->                                   *==*+=*#***#*.:**=.</text>
+    x="26.8"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    4
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="750"
-    style="animation-delay:1.715s"
->                                   +*=*==*#*****:.*#=.</text>
+    x="26.8"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    2
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="4.36s"
+        begin="-3.07s"
+        repeatCount="indefinite"
+    />
 
 <text
-    class="ascii line"
-    x="4"
-    y="765"
-    style="animation-delay:1.750s"
->                                   +*++=-+******-:+%+:</text>
+    x="44.6"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    9
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="780"
-    style="animation-delay:1.785s"
->                                   *#-=+=+******=-=#+*</text>
+    x="44.6"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    9
+</text>
 
 <text
-    class="ascii line"
-    x="4"
-    y="795"
-    style="animation-delay:1.820s"
->                                   ##-=+=+*****#+==++%</text>
+    x="44.6"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="44.6"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="44.6"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="44.6"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="44.6"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="44.6"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="44.6"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="44.6"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="44.6"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="44.6"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="44.6"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="44.6"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="44.6"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="44.6"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="44.6"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="44.6"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="44.6"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="44.6"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="44.6"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="44.6"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    1
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="6.55s"
+        begin="-4.91s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="62.5"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="62.5"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="62.5"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="62.5"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="62.5"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="62.5"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="62.5"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="62.5"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="62.5"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="62.5"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="62.5"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="62.5"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="62.5"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="62.5"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="62.5"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="62.5"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="62.5"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="62.5"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="62.5"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="62.5"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="62.5"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="62.5"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="62.5"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="62.5"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="62.5"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="62.5"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="62.5"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="62.5"
+    y="450.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="4.27s"
+        begin="-6.50s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="80.4"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="80.4"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="80.4"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="80.4"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="80.4"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="80.4"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="80.4"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="80.4"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="80.4"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="80.4"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="80.4"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="80.4"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="80.4"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="80.4"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="80.4"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="80.4"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="80.4"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="80.4"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="80.4"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="80.4"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="80.4"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="80.4"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="80.4"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="80.4"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="80.4"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="80.4"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="80.4"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="80.4"
+    y="450.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    3
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="6.53s"
+        begin="-0.68s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="98.2"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.35"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="98.2"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="98.2"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="98.2"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="98.2"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="98.2"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="98.2"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="98.2"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="98.2"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="98.2"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="98.2"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="98.2"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="98.2"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="98.2"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="98.2"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="98.2"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="98.2"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="98.2"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="98.2"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="98.2"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="5.58s"
+        begin="-2.66s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="116.1"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="116.1"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="116.1"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="116.1"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="116.1"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="116.1"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="116.1"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.35"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="116.1"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="116.1"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="116.1"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="116.1"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="116.1"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="116.1"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="116.1"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="116.1"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="116.1"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.35"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="116.1"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="116.1"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="116.1"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="116.1"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="116.1"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="116.1"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="116.1"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="116.1"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    2
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="4.45s"
+        begin="-2.77s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="133.9"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="133.9"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="133.9"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="133.9"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="133.9"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="133.9"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.35"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="133.9"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="133.9"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="133.9"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="133.9"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="133.9"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="133.9"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="133.9"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="133.9"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="133.9"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="133.9"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="133.9"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="133.9"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="133.9"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="133.9"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="133.9"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="133.9"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="133.9"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="133.9"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="133.9"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="133.9"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="133.9"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="133.9"
+    y="450.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="133.9"
+    y="466.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    4
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="4.06s"
+        begin="-2.09s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="151.8"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="151.8"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="151.8"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="151.8"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="151.8"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="151.8"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="151.8"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="151.8"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="151.8"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="151.8"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="151.8"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="151.8"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.36"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="151.8"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="151.8"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="151.8"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="151.8"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="151.8"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="151.8"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="151.8"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="151.8"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="151.8"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="151.8"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="151.8"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="151.8"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    5
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="5.68s"
+        begin="-2.36s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="169.6"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="169.6"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="169.6"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="169.6"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="169.6"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="169.6"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="169.6"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="169.6"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="169.6"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="169.6"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="169.6"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="169.6"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="169.6"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="169.6"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="169.6"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="169.6"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="169.6"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="169.6"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="169.6"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    5
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="3.83s"
+        begin="-0.34s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="187.5"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="187.5"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="187.5"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="187.5"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="187.5"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="187.5"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="187.5"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="187.5"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="187.5"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="187.5"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="187.5"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="187.5"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="187.5"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="187.5"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="187.5"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="187.5"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="187.5"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="187.5"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="187.5"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="187.5"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="187.5"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    8
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="4.99s"
+        begin="-0.65s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="205.4"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="205.4"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="205.4"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="205.4"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="205.4"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="205.4"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="205.4"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="205.4"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="205.4"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="205.4"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="205.4"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="205.4"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="205.4"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="205.4"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="205.4"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="205.4"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="205.4"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="205.4"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="205.4"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="205.4"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="205.4"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="205.4"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="205.4"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="205.4"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="205.4"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    8
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="6.12s"
+        begin="-3.18s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="223.2"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="223.2"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="223.2"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="223.2"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="223.2"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="223.2"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="223.2"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="223.2"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="223.2"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="223.2"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="223.2"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="223.2"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="223.2"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="223.2"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="223.2"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="223.2"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="223.2"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="223.2"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="223.2"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="223.2"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="223.2"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="223.2"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="223.2"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="223.2"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="223.2"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="223.2"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="223.2"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    7
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="5.84s"
+        begin="-3.05s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="241.1"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="241.1"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="241.1"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="241.1"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="241.1"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="241.1"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="241.1"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="241.1"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="241.1"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="241.1"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="241.1"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="241.1"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="241.1"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="241.1"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="241.1"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="241.1"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="241.1"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="241.1"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="241.1"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="241.1"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="241.1"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    6
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="6.86s"
+        begin="-2.55s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="258.9"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="258.9"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="258.9"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="258.9"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="258.9"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="258.9"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="258.9"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="258.9"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="258.9"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="258.9"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="258.9"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="258.9"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="258.9"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="258.9"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="258.9"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="258.9"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="258.9"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="258.9"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="258.9"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="258.9"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="258.9"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="258.9"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="258.9"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="258.9"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="258.9"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    7
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="5.07s"
+        begin="-6.88s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="276.8"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="276.8"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="276.8"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="276.8"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="276.8"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="276.8"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="276.8"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="276.8"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="276.8"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="276.8"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="276.8"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="276.8"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="276.8"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="276.8"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="276.8"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="276.8"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="276.8"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="276.8"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="276.8"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="276.8"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="276.8"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="276.8"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    4
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="3.66s"
+        begin="-6.62s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="294.6"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="294.6"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="294.6"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="294.6"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="294.6"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="294.6"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="294.6"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="294.6"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="294.6"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="294.6"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="294.6"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="294.6"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="294.6"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="294.6"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="294.6"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="294.6"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="294.6"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="294.6"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="294.6"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="294.6"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="294.6"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="294.6"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="5.67s"
+        begin="-2.73s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="312.5"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="312.5"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="312.5"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="312.5"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="312.5"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="312.5"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="312.5"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="312.5"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="312.5"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="312.5"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="312.5"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="312.5"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="312.5"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="312.5"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="312.5"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="312.5"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="312.5"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="312.5"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="312.5"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="312.5"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="312.5"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="312.5"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="312.5"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="312.5"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="312.5"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="312.5"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="312.5"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="312.5"
+    y="450.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="312.5"
+    y="466.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    4
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="3.59s"
+        begin="-5.40s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="330.4"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="330.4"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="330.4"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="330.4"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="330.4"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="330.4"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="330.4"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="330.4"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="330.4"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="330.4"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="330.4"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="330.4"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="330.4"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="330.4"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="330.4"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.36"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="330.4"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="330.4"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="330.4"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="330.4"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="330.4"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="330.4"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="330.4"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="330.4"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="330.4"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="330.4"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="330.4"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="330.4"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="330.4"
+    y="450.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    8
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="3.96s"
+        begin="-4.98s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="348.2"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="348.2"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="348.2"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="348.2"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="348.2"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="348.2"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="348.2"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="348.2"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="348.2"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="348.2"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="348.2"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="348.2"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="348.2"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="348.2"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="348.2"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="348.2"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="348.2"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="348.2"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="348.2"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="348.2"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="348.2"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="348.2"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="348.2"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="348.2"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="348.2"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="348.2"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="348.2"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="348.2"
+    y="450.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="348.2"
+    y="466.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    7
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="6.76s"
+        begin="-0.91s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="366.1"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="366.1"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="366.1"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="366.1"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="366.1"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="366.1"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="366.1"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="366.1"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="366.1"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="366.1"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="366.1"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.36"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="366.1"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="366.1"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="366.1"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="366.1"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="366.1"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="366.1"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="366.1"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="366.1"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="366.1"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="366.1"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="366.1"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="366.1"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="366.1"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="366.1"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="366.1"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="366.1"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="366.1"
+    y="450.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="366.1"
+    y="466.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    0
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="3.66s"
+        begin="-1.43s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="383.9"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="383.9"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="383.9"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="383.9"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="383.9"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="383.9"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="383.9"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="383.9"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="383.9"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="383.9"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="383.9"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="383.9"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="383.9"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="383.9"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="383.9"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="383.9"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="383.9"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="383.9"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="383.9"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="383.9"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="383.9"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="383.9"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    1
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="4.33s"
+        begin="-3.00s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="401.8"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="401.8"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.36"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="401.8"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.45"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="401.8"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="401.8"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="401.8"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="401.8"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.62"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="401.8"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="401.8"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="401.8"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="401.8"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="401.8"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="401.8"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.36"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="401.8"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="401.8"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="401.8"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="401.8"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="401.8"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="401.8"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="401.8"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.64"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="401.8"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="401.8"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="401.8"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="401.8"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="401.8"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="401.8"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="401.8"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    1
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="3.99s"
+        begin="-0.23s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="419.6"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="419.6"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="419.6"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.35"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="419.6"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="419.6"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="419.6"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="419.6"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="419.6"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="419.6"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="419.6"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="419.6"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="419.6"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="419.6"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="419.6"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="419.6"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.40"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="419.6"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="419.6"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="419.6"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="419.6"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="419.6"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="419.6"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="419.6"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.66"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="419.6"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="419.6"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="419.6"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="419.6"
+    y="416.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="419.6"
+    y="433.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="419.6"
+    y="450.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    0
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="5.92s"
+        begin="-5.48s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="437.5"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="437.5"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="437.5"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.54"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="437.5"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="437.5"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="437.5"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="437.5"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="437.5"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="437.5"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="437.5"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="437.5"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="437.5"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="437.5"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.42"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="437.5"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="437.5"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="437.5"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="437.5"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.35"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="437.5"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.70"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="437.5"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.44"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="437.5"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="437.5"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="437.5"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="437.5"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="437.5"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="437.5"
+    y="400.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    5
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="6.26s"
+        begin="-5.33s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="455.4"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.41"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="455.4"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.39"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="455.4"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="455.4"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.52"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="455.4"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.53"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="455.4"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="455.4"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="455.4"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="455.4"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="455.4"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="455.4"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="455.4"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.59"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="455.4"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="455.4"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="455.4"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="455.4"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="455.4"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.57"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="455.4"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="455.4"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="455.4"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="455.4"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="455.4"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="455.4"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    8
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="4.53s"
+        begin="-3.46s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="473.2"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="473.2"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="473.2"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="473.2"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.50"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="473.2"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    3
+</text>
+
+<text
+    x="473.2"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="473.2"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.46"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="473.2"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.58"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="473.2"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.68"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="473.2"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    7
+</text>
+
+<text
+    x="473.2"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="473.2"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.61"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="473.2"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.63"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="473.2"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="473.2"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="473.2"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.49"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="473.2"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="473.2"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.69"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="473.2"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="473.2"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="473.2"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="473.2"
+    y="350.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="473.2"
+    y="366.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="473.2"
+    y="383.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    8
+</text>
+</g>
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 -520"
+        to="0 520"
+        dur="4.24s"
+        begin="-2.40s"
+        repeatCount="indefinite"
+    />
+
+<text
+    x="491.1"
+    y="0.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.47"
+    filter="url(#glow)">
+    1
+</text>
+
+<text
+    x="491.1"
+    y="16.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.48"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="491.1"
+    y="33.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="491.1"
+    y="50.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.65"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="491.1"
+    y="66.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.56"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="491.1"
+    y="83.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.36"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="491.1"
+    y="100.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.36"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="491.1"
+    y="116.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.60"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="491.1"
+    y="133.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.67"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="491.1"
+    y="150.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.35"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="491.1"
+    y="166.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.55"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="491.1"
+    y="183.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.37"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="491.1"
+    y="200.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.38"
+    filter="url(#glow)">
+    0
+</text>
+
+<text
+    x="491.1"
+    y="216.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.43"
+    filter="url(#glow)">
+    8
+</text>
+
+<text
+    x="491.1"
+    y="233.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#006b1b"
+    opacity="0.51"
+    filter="url(#glow)">
+    6
+</text>
+
+<text
+    x="491.1"
+    y="250.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    2
+</text>
+
+<text
+    x="491.1"
+    y="266.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="491.1"
+    y="283.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    4
+</text>
+
+<text
+    x="491.1"
+    y="300.0"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00c832"
+    opacity="0.85"
+    filter="url(#glow)">
+    5
+</text>
+
+<text
+    x="491.1"
+    y="316.7"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+
+<text
+    x="491.1"
+    y="333.3"
+    text-anchor="middle"
+    font-family="Courier New, monospace"
+    font-size="17"
+    font-weight="bold"
+    fill="#00ff41"
+    opacity="1.00"
+    filter="url(#glow)">
+    9
+</text>
+</g>
+
 </svg>
