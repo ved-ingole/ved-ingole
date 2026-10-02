@@ -1,6 +1,6 @@
 <div align="center">
 
-# `ved@github`
+# `ved-ingole`
 
 ### AI/ML • Python • Development • Creative Technology
 
