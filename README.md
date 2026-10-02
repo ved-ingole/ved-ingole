@@ -16,7 +16,7 @@
 </td>
 
 <td valign="top">
-<img src="./info-card.svg" width="490" />
+<img src="./info-card.svg" width="620" />
 </td>
 
 </tr>

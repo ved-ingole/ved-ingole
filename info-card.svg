@@ -18,58 +18,102 @@ viewBox="0 0 820 650">
 
 .title {
     font-family: "Courier New", monospace;
-    font-size: 14px;
+    font-size: 18px;
     fill: #8b949e;
 }
 
-.dot {
-    fill: #484f58;
+.dot-red {
+    fill: #ff5f56;
 }
 
-.code {
-    font-family: "Courier New", monospace;
-    font-size: 14px;
-    fill: #c9d1d9;
+.dot-yellow {
+    fill: #ffbd2e;
 }
 
-.comment {
-    font-family: "Courier New", monospace;
-    font-size: 13px;
-    fill: #6e7681;
+.dot-green {
+    fill: #27c93f;
 }
 
-.keyword {
-    fill: #ffffff;
-    font-weight: bold;
-}
 
-.string {
-    fill: #d0d7de;
-}
-
-.function {
-    fill: #ffffff;
-    font-weight: bold;
-}
-
-.section {
-    font-family: "Courier New", monospace;
-    font-size: 14px;
-    font-weight: bold;
-    fill: #ffffff;
-}
-
-.item {
-    font-family: "Courier New", monospace;
-    font-size: 13px;
-    fill: #c9d1d9;
-}
+/* Python prompt */
 
 .prompt {
     font-family: "Courier New", monospace;
-    font-size: 13px;
+    font-size: 17px;
+    fill: #58a6ff;
+}
+
+
+/* Normal code */
+
+.code {
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    fill: #c9d1d9;
+}
+
+
+/* Comments */
+
+.comment {
+    font-family: "Courier New", monospace;
+    font-size: 17px;
     fill: #8b949e;
 }
+
+
+/* Python keywords */
+
+.keyword {
+    fill: #ff7b72;
+    font-weight: bold;
+}
+
+
+/* Strings */
+
+.string {
+    fill: #a5d6ff;
+}
+
+
+/* Function */
+
+.function {
+    fill: #d2a8ff;
+    font-weight: bold;
+}
+
+
+/* Section headings */
+
+.section {
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    font-weight: bold;
+    fill: #7ee787;
+}
+
+
+/* List items */
+
+.item {
+    font-family: "Courier New", monospace;
+    font-size: 17px;
+    fill: #c9d1d9;
+}
+
+
+/* Separators */
+
+.separator {
+    font-family: "Courier New", monospace;
+    font-size: 17px;
+    fill: #484f58;
+}
+
+
+/* Animations */
 
 .type {
     opacity: 0;
@@ -83,9 +127,10 @@ viewBox="0 0 820 650">
 }
 
 .cursor {
-    fill: #c9d1d9;
+    fill: #58a6ff;
     animation: blink 1s step-end infinite;
 }
+
 
 @keyframes typeLine {
 
@@ -101,6 +146,7 @@ viewBox="0 0 820 650">
 
 }
 
+
 @keyframes fadeIn {
 
     from {
@@ -114,6 +160,7 @@ viewBox="0 0 820 650">
     }
 
 }
+
 
 @keyframes blink {
 
@@ -143,7 +190,7 @@ viewBox="0 0 820 650">
 />
 
 
-<!-- Terminal title bar -->
+<!-- Title bar -->
 
 <rect
     class="titlebar"
@@ -155,9 +202,13 @@ viewBox="0 0 820 650">
     ry="11"
 />
 
-<circle class="dot" cx="22" cy="21" r="6"/>
-<circle class="dot" cx="42" cy="21" r="6"/>
-<circle class="dot" cx="62" cy="21" r="6"/>
+
+<!-- Mac-style terminal buttons -->
+
+<circle class="dot-red" cx="22" cy="21" r="6"/>
+<circle class="dot-yellow" cx="42" cy="21" r="6"/>
+<circle class="dot-green" cx="62" cy="21" r="6"/>
+
 
 <text class="title" x="85" y="26">
 Python Terminal — ved@github
@@ -175,6 +226,8 @@ Python 3.x.x
 </g>
 
 
+<!-- Comment -->
+
 <g class="type" style="animation-delay:0.85s">
 
 <text class="comment" x="35" y="94">
@@ -188,17 +241,27 @@ Python 3.x.x
 
 <g class="type" style="animation-delay:1.5s">
 
-<text class="code" x="35" y="120">
-&gt;&gt;&gt; developer = <tspan class="string">"Ved Ingole"</tspan>
+<text class="prompt" x="35" y="120">
+&gt;&gt;&gt;
+</text>
+
+<text class="code" x="75" y="120">
+developer = <tspan class="string">"Ved Ingole"</tspan>
 </text>
 
 </g>
 
 
+<!-- Focus -->
+
 <g class="type" style="animation-delay:2.15s">
 
-<text class="code" x="35" y="146">
-&gt;&gt;&gt; focus = <tspan class="string">"AI / ML + Development"</tspan>
+<text class="prompt" x="35" y="146">
+&gt;&gt;&gt;
+</text>
+
+<text class="code" x="75" y="146">
+focus = <tspan class="string">"AI / ML + Development"</tspan>
 </text>
 
 </g>
@@ -207,7 +270,7 @@ Python 3.x.x
 <!-- Separator -->
 
 <text
-    class="comment"
+    class="separator"
     x="35"
     y="171">
 # ------------------------------------------------------------
@@ -228,7 +291,7 @@ CURRENTLY WORKING ON
 <g class="fade" style="animation-delay:2.55s">
 
 <text class="item" x="42" y="227">
-├─ DSA with Python
+├─ <tspan class="string">DSA with Python</tspan>
 </text>
 
 </g>
@@ -237,7 +300,7 @@ CURRENTLY WORKING ON
 <g class="fade" style="animation-delay:2.7s">
 
 <text class="item" x="42" y="249">
-└─ JavaScript
+└─ <tspan class="string">JavaScript</tspan>
 </text>
 
 </g>
@@ -257,7 +320,7 @@ PROJECTS
 <g class="fade" style="animation-delay:3.05s">
 
 <text class="item" x="42" y="310">
-├─ Diabetes Prediction Model
+├─ <tspan class="string">Diabetes Prediction Model</tspan>
 </text>
 
 </g>
@@ -266,7 +329,7 @@ PROJECTS
 <g class="fade" style="animation-delay:3.2s">
 
 <text class="item" x="42" y="332">
-├─ Deccan EnM Solutions Website
+├─ <tspan class="string">Deccan EnM Solutions Website</tspan>
 </text>
 
 </g>
@@ -275,7 +338,7 @@ PROJECTS
 <g class="fade" style="animation-delay:3.35s">
 
 <text class="item" x="42" y="354">
-└─ Multiple ML Models
+└─ <tspan class="string">Multiple ML Models</tspan>
 </text>
 
 </g>
@@ -348,17 +411,21 @@ Matplotlib
 </g>
 
 
-<!-- Python ending -->
+<!-- Final Python command -->
 
 <g class="fade" style="animation-delay:4.75s">
 
-<text class="code" x="35" y="585">
-&gt;&gt;&gt; <tspan class="function">build()</tspan>
+<text class="prompt" x="35" y="585">
+&gt;&gt;&gt;
+</text>
+
+<text class="code" x="75" y="585">
+<tspan class="function">build</tspan>()
 </text>
 
 <rect
     class="cursor"
-    x="122"
+    x="128"
     y="571"
     width="8"
     height="18"

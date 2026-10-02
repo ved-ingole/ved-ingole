@@ -29,7 +29,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 .title {{
     font-family: "Courier New", monospace;
-    font-size: 14px;
+    font-size: 18px;
     fill: #8b949e;
 }}
 
@@ -50,7 +50,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 .prompt {{
     font-family: "Courier New", monospace;
-    font-size: 13px;
+    font-size: 17px;
     fill: #58a6ff;
 }}
 
@@ -59,7 +59,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 .code {{
     font-family: "Courier New", monospace;
-    font-size: 14px;
+    font-size: 18px;
     fill: #c9d1d9;
 }}
 
@@ -68,7 +68,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 .comment {{
     font-family: "Courier New", monospace;
-    font-size: 13px;
+    font-size: 17px;
     fill: #8b949e;
 }}
 
@@ -100,7 +100,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 .section {{
     font-family: "Courier New", monospace;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     fill: #7ee787;
 }}
@@ -110,7 +110,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 .item {{
     font-family: "Courier New", monospace;
-    font-size: 13px;
+    font-size: 17px;
     fill: #c9d1d9;
 }}
 
@@ -119,7 +119,7 @@ viewBox="0 0 {WIDTH} {HEIGHT}">
 
 .separator {{
     font-family: "Courier New", monospace;
-    font-size: 13px;
+    font-size: 17px;
     fill: #484f58;
 }}
 
