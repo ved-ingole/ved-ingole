@@ -1,0 +1,10 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Personal source image
+source-photo.jpg
+
+# Temporary image used to generate ASCII
+source-prepped.png
