@@ -117,20 +117,12 @@
                 x="58"
                 y="38"
             >
-                Sep
-            </text>
-            
-            <text
-                class="month"
-                x="74"
-                y="38"
-            >
                 Oct
             </text>
             
             <text
                 class="month"
-                x="138"
+                x="122"
                 y="38"
             >
                 Nov
@@ -138,7 +130,7 @@
             
             <text
                 class="month"
-                x="218"
+                x="202"
                 y="38"
             >
                 Dec
@@ -146,7 +138,7 @@
             
             <text
                 class="month"
-                x="282"
+                x="266"
                 y="38"
             >
                 Jan
@@ -154,7 +146,7 @@
             
             <text
                 class="month"
-                x="346"
+                x="330"
                 y="38"
             >
                 Feb
@@ -162,7 +154,7 @@
             
             <text
                 class="month"
-                x="410"
+                x="394"
                 y="38"
             >
                 Mar
@@ -170,7 +162,7 @@
             
             <text
                 class="month"
-                x="490"
+                x="474"
                 y="38"
             >
                 Apr
@@ -178,7 +170,7 @@
             
             <text
                 class="month"
-                x="554"
+                x="538"
                 y="38"
             >
                 May
@@ -186,7 +178,7 @@
             
             <text
                 class="month"
-                x="634"
+                x="618"
                 y="38"
             >
                 Jun
@@ -194,7 +186,7 @@
             
             <text
                 class="month"
-                x="698"
+                x="682"
                 y="38"
             >
                 Jul
@@ -202,7 +194,7 @@
             
             <text
                 class="month"
-                x="762"
+                x="746"
                 y="38"
             >
                 Aug
@@ -210,10 +202,18 @@
             
             <text
                 class="month"
-                x="842"
+                x="826"
                 y="38"
             >
                 Sep
+            </text>
+            
+            <text
+                class="month"
+                x="890"
+                y="38"
+            >
+                Oct
             </text>
             
             <rect
@@ -2588,7 +2588,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#69f0a0"
                 style="animation-delay:0.810s"
             />
             
@@ -2665,7 +2665,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#69f0a0"
+                fill="#006d32"
                 style="animation-delay:0.835s"
             />
             
@@ -2687,7 +2687,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#26a641"
                 style="animation-delay:0.800s"
             />
             
@@ -2698,7 +2698,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#006d32"
                 style="animation-delay:0.812s"
             />
             
@@ -2742,7 +2742,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#006d32"
+                fill="#161b22"
                 style="animation-delay:0.860s"
             />
             
@@ -2764,7 +2764,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#26a641"
+                fill="#161b22"
                 style="animation-delay:0.825s"
             />
             
@@ -2775,7 +2775,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#006d32"
+                fill="#161b22"
                 style="animation-delay:0.837s"
             />
             
@@ -2786,7 +2786,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#006d32"
                 style="animation-delay:0.849s"
             />
             
@@ -2863,7 +2863,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#006d32"
+                fill="#26a641"
                 style="animation-delay:0.874s"
             />
             
@@ -2940,7 +2940,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#26a641"
+                fill="#161b22"
                 style="animation-delay:0.899s"
             />
             
@@ -3391,7 +3391,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#006d32"
                 style="animation-delay:1.037s"
             />
             
@@ -3468,7 +3468,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#006d32"
+                fill="#161b22"
                 style="animation-delay:1.062s"
             />
             
@@ -3677,7 +3677,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#26a641"
                 style="animation-delay:1.172s"
             />
             
@@ -3754,7 +3754,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#26a641"
+                fill="#161b22"
                 style="animation-delay:1.197s"
             />
             
@@ -4040,7 +4040,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#006d32"
                 style="animation-delay:1.273s"
             />
             
@@ -4062,7 +4062,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#0e4429"
                 style="animation-delay:1.297s"
             />
             
@@ -4073,7 +4073,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#0e4429"
                 style="animation-delay:1.250s"
             />
             
@@ -4106,7 +4106,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#006d32"
                 style="animation-delay:1.286s"
             />
             
@@ -4117,7 +4117,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#006d32"
+                fill="#0e4429"
                 style="animation-delay:1.298s"
             />
             
@@ -4128,7 +4128,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#0e4429"
                 style="animation-delay:1.310s"
             />
             
@@ -4139,7 +4139,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#0e4429"
+                fill="#161b22"
                 style="animation-delay:1.322s"
             />
             
@@ -4150,7 +4150,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#0e4429"
+                fill="#26a641"
                 style="animation-delay:1.275s"
             />
             
@@ -4161,7 +4161,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#0e4429"
                 style="animation-delay:1.287s"
             />
             
@@ -4172,7 +4172,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#0e4429"
                 style="animation-delay:1.299s"
             />
             
@@ -4194,7 +4194,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#0e4429"
+                fill="#161b22"
                 style="animation-delay:1.323s"
             />
             
@@ -4216,7 +4216,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#26a641"
                 style="animation-delay:1.347s"
             />
             
@@ -4227,7 +4227,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#26a641"
+                fill="#0e4429"
                 style="animation-delay:1.300s"
             />
             
@@ -4238,7 +4238,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#0e4429"
+                fill="#161b22"
                 style="animation-delay:1.312s"
             />
             
@@ -4249,7 +4249,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#0e4429"
+                fill="#161b22"
                 style="animation-delay:1.324s"
             />
             
@@ -4260,7 +4260,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#006d32"
+                fill="#161b22"
                 style="animation-delay:1.336s"
             />
             
@@ -4282,7 +4282,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#0e4429"
+                fill="#161b22"
                 style="animation-delay:1.360s"
             />
             
@@ -4293,7 +4293,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#006d32"
+                fill="#161b22"
                 style="animation-delay:1.372s"
             />
             
@@ -4306,7 +4306,7 @@
         font-weight="bold"
         text-anchor="middle"
     >
-        89
+        91
     </text>
 
     <text
@@ -4338,7 +4338,7 @@
         font-weight="bold"
         text-anchor="middle"
     >
-        2
+        3
     </text>
 
     <text
