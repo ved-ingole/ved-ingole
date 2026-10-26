@@ -4227,7 +4227,7 @@
                 width="12"
                 height="12"
                 rx="3"
-                fill="#161b22"
+                fill="#0e4429"
                 style="animation-delay:1.300s"
             />
             
@@ -4306,7 +4306,7 @@
         font-weight="bold"
         text-anchor="middle"
     >
-        124
+        125
     </text>
 
     <text
@@ -4338,7 +4338,7 @@
         font-weight="bold"
         text-anchor="middle"
     >
-        23
+        24
     </text>
 
     <text
@@ -4370,7 +4370,7 @@
         font-weight="bold"
         text-anchor="middle"
     >
-        23
+        24
     </text>
 
     <text
